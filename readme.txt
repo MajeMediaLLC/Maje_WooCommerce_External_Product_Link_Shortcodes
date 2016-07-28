@@ -2,8 +2,8 @@
 Contributors: majemedia
 Tags: woocommerce, affiliate links, external products, link from pages
 Requires at least: 4.5.2
-Tested up to: 4.5.2
-Stable tag: 1.0
+Tested up to: 4.6
+Stable tag: 1.0.1
 License: GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,5 +33,8 @@ https://github.com/MajeMediaLLC/Maje_WooCommerce_External_Product_Link_Shortcode
 3. Activate plugin
 
 == Changelog ==
+= 1.0.1: =
+* Updated tested to WordPress version.
+
 = 1.0.0: =
 * Created plugin
