@@ -35,5 +35,6 @@ https://github.com/MajeMediaLLC/Maje_WooCommerce_External_Product_Link_Shortcode
 ## Changelog
 ### 1.0.1:
 * Tested against WordPress 4.6
+
 ### 1.0.0:
 * Created plugin
