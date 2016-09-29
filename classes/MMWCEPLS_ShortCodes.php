@@ -23,6 +23,7 @@ class MMWCEPLS_ShortCodes {
 			                        'new_window' => FALSE,
 			                        'link_title' => FALSE,
 			                        'link_rel'   => FALSE,
+									'params'	=>	FALSE,
 		                        ), $atts, 'wc_external_link' );
 
 		$return = '';
@@ -31,6 +32,7 @@ class MMWCEPLS_ShortCodes {
 		$link_target_prop = ( $atts[ 'new_window' ] === 'true' ) ? 'target="_blank"' : '';
 		$link_title_prop = ( $atts[ 'link_title' ] ) ? 'title="' . esc_html( $atts[ 'link_title' ] ) . '"' : '';
 		$link_rel_prop   = ( $atts[ 'link_rel' ] ) ? 'rel="' . esc_html( $atts[ 'link_rel' ] ) . '"' : '';
+		$link_params_prop = ( $atts[ 'params' ] ) ? esc_html( $atts[ 'params' ] ) . '"' : '';
 
 		include( $MMWCEPLS::$plugin_path . '/templates/external_product_url.php' );
 
