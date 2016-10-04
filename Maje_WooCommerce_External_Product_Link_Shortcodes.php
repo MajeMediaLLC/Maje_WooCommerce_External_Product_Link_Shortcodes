@@ -4,7 +4,7 @@
 Plugin Name: WooCommerce External/Affiliate Link Shortcode
 Plugin URI: https://majemedia.com/plugins/woocommerce-external-product-link-shortcodes
 Description: Link to an affiliate/external product's url from content without sending your user to the product page first.
-Version: 1.0.1
+Version: 1.0.3
 Author: Maje Media LLC
 Author URI: https://majemedia.com
 Copyright: Maje Media LLC
