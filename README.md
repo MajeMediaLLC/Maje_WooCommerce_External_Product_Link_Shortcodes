@@ -3,8 +3,8 @@
 Link directly to your external or affiliate products
 
 - Requires at least: WordPress 4.5.2
-- Tested up to: WordPress 4.7
-- Stable tag: 1.0.4
+- Tested up to: WordPress 4.7.1
+- Stable tag: 1.0.5
 - License: GPL2
 - License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,6 +33,9 @@ https://github.com/MajeMediaLLC/Maje_WooCommerce_External_Product_Link_Shortcode
 3. Activate plugin
 
 ## Changelog
+### 1.0.5:
+* Tested against WordPress 4.7.1
+
 ### 1.0.4:
 * Tested against WordPress 4.7
 
