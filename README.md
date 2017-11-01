@@ -3,8 +3,8 @@
 Link directly to your external or affiliate products
 
 - Requires at least: WordPress 4.5.2
-- Tested up to: WordPress 4.8
-- Stable tag: 1.0.6
+- Tested up to: WordPress 4.8.3
+- Stable tag: 1.1.0
 - License: GPL2
 - License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,6 +20,7 @@ usage example: [wc_external_link product_id='241']Link Text[/wc_external_link]
 - new_window: exclude for same window opening or set to 'true' if you want the link to open in a new window
 - link_title: exclude for none or set to whatever you want your visitor to see when they mouseover the link
 - link_rel: exclude for none or set to one of the types from here: https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types
+- params: See Examples in link below: add in your url variables (does not add ? or prefixed & to an extension of already in place product variables). This appends to the product url entered into the product.
 
 If you leave product_id blank the link will be '#' (same page).
 
@@ -33,11 +34,9 @@ https://github.com/MajeMediaLLC/Maje_WooCommerce_External_Product_Link_Shortcode
 3. Activate plugin
 
 ## Changelog
-### 1.0.6:
-* Tested against WordPress 4.8
-
-### 1.0.5:
-* Tested against WordPress 4.7.1
+### 1.1.0
+* Fixed params and updated documentation
+* Tested against WordPress 4.8.3
 
 ### 1.0.4:
 * Tested against WordPress 4.7
