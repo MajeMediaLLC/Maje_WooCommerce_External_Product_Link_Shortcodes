@@ -34,6 +34,11 @@ https://github.com/MajeMediaLLC/Maje_WooCommerce_External_Product_Link_Shortcode
 3. Activate plugin
 
 ## Changelog
+### 1.1.1
+* Tested against WordPress 4.9
+* Tested against WooCommerce 3.2.4
+* Added WooCommerce version meta data
+
 ### 1.1.0
 * Fixed params and updated documentation
 * Tested against WordPress 4.8.3
