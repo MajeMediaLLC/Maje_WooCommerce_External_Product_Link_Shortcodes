@@ -14,14 +14,26 @@ Link directly to your external or affiliate products
 == Description ==
 Link to your external or affiliate woocommerce products from other content with a shortcode instead of requiring your visitors to go to the product page first.
 
-usage example: [wc_external_link product_id='241']Link Text[/wc_external_link]
+=== Usage Examples ===
 
 available values:
 
-- product_id: The ID of your product
+- product_id (required): The ID of your product
+
+    [wc_external_link product_id='241']Link Text[/wc_external_link]
+
 - new_window: exclude for same window opening or set to 'true' if you want the link to open in a new window
+
+    [wc_external_link product_id='241' new_window='true']Link Text[/wc_external_link]
+
 - link_title: exclude for none or set to whatever you want your visitor to see when they mouseover the link
+
+    [wc_external_link product_id='241' link_title='This shows when I hover over the link']Link Text[/wc_external_link]
+
 - link_rel: exclude for none or set to one of the types from here: https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types
+
+    [wc_external_link product_id='241' link_rel='author']Link Text[/wc_external_link]
+
 - params: See Examples in link below: add in your url variables (does not add ? or prefixed & to an extension of already in place product variables). This appends to the product url entered into the product.
 
 If you leave product_id blank the link will be '#' (same page).
@@ -39,6 +51,7 @@ https://github.com/MajeMediaLLC/Maje_WooCommerce_External_Product_Link_Shortcode
 = 1.1.1 =
 * Tested against WordPress 4.9
 * Tested against WooCommerce 3.2.4
+* Updated readme for wordpress.org with specific usage examples to avoid bad copy/pasting
 
 = 1.1.0 =
 * Fixed params and updated documentation
