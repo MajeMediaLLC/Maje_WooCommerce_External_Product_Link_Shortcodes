@@ -1,9 +1,9 @@
-=== Maje WooCommerce External/Affiliate Product Link Shortcodes ===
+=== WooCommerce: External/Affiliate Product Link Shortcode ===
 Contributors: majemedia
 Tags: woocommerce, affiliate links, external products, link from pages
 Requires at least: 4.5.2
 Tested up to: 5.2.2
-Stable tag: 1.1.3
+Stable tag: 1.1.4
 Requires PHP: 5.6
 WC requires at least: 2.6
 WC tested up to 3.6.5
@@ -57,6 +57,9 @@ If you leave product_id blank the link will be '#' (same page).
 3. Activate plugin
 
 == Changelog ==
+= 1.1.4 =
+* Changed displayed title of plugin WordPress.org repo
+
 = 1.1.3 =
 * Tested against WordPress 5.2.2
 * Tested against WooCommerce 3.6.5

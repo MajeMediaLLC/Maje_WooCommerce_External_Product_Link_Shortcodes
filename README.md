@@ -1,4 +1,4 @@
-# Maje WooCommerce External/Affiliate Product Link Shortcodes
+# WooCommerce: External/Affiliate Product Link Shortcode
 
 <p align='center'>
 <img src="https://raw.githubusercontent.com/MajeMediaLLC/Maje_WooCommerce_External_Product_Link_Shortcodes/master/assets/banner-1544x500.png" alt='WooCommerce: External/Affiliate Product Link Shortcodes' title="Maje Media LLC">
@@ -7,10 +7,10 @@
 Link directly to your external or affiliate products
 
 - Requires at least: WordPress 4.5.2
-- Tested up to: WordPress 4.9
+- Tested up to: WordPress 5.2.2
 - WC requires at least: 2.6
-- WC tested up to 3.2.4
-- Stable tag: 1.1.2
+- WC tested up to 3.6.5
+- Stable tag: 1.1.4
 - License: GPL2
 - License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,9 @@ If you leave product_id blank the link will be '#' (same page).
 3. Activate plugin
 
 ## Changelog
+### 1.1.4
+* Changed displayed title of plugin WordPress.org repo
+
 ### 1.1.3
 * Tested against WordPress 5.2.2
 * Tested against WooCommerce 3.6.5
