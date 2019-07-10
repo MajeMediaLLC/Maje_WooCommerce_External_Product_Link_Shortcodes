@@ -2,45 +2,54 @@
 Contributors: majemedia
 Tags: woocommerce, affiliate links, external products, link from pages
 Requires at least: 4.5.2
-Tested up to: 4.9
-Stable tag: 1.1.2
+Tested up to: 5.2.2
+Stable tag: 1.1.3
+Requires PHP: 5.6
 WC requires at least: 2.6
-WC tested up to 3.2.4
+WC tested up to 3.6.5
 License: GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Link directly to your external or affiliate products
 
 == Description ==
-Link to your external or affiliate woocommerce products from other content with a shortcode instead of requiring your visitors to go to the product page first.
 
-=== Usage Examples ===
+Link to your external/affiliate WooCommerce products from other places with a shortcode instead of pushing your visitors to the product page first.
 
-available values:
+For some usage examples see Frequently Asked Questions
 
-- product_id (required): The ID of your product
+== Frequently Asked Questions ==
 
-    [wc_external_link product_id='241']Link Text[/wc_external_link]
+* `product_id` (required): The ID of your product
 
-- new_window: exclude for same window opening or set to 'true' if you want the link to open in a new window
+    `[wc_external_link product_id='241']Link Text[/wc_external_link]`
 
-    [wc_external_link product_id='241' new_window='true']Link Text[/wc_external_link]
+* `new_window`: exclude for same window opening or set to 'true' if you want the link to open in a new window
 
-- link_title: exclude for none or set to whatever you want your visitor to see when they mouseover the link
+    `[wc_external_link product_id='241' new_window='true']Link Text[/wc_external_link]`
 
-    [wc_external_link product_id='241' link_title='This shows when I hover over the link']Link Text[/wc_external_link]
+* `link_title`: exclude for none or set to whatever you want your visitor to see when they mouseover the link
 
-- link_rel: exclude for none or set to one of the types from here: https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types
+    `[wc_external_link product_id='241' link_title='This shows when I hover over the link']Link Text[/wc_external_link]`
 
-    [wc_external_link product_id='241' link_rel='author']Link Text[/wc_external_link]
+* `link_rel`: exclude for none or set to one of the types [from here](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types)
 
-- params: See Examples in link below: add in your url variables (does not add ? or prefixed & to an extension of already in place product variables). This appends to the product url entered into the product.
+    `[wc_external_link product_id='241' link_rel='author']Link Text[/wc_external_link]`
+
+* `params`:
+
+    See Examples in link below: add in your url variables (does not add ? or prefixed & to an extension of already in place product variables). This appends to the product url entered into the product.
 
 If you leave product_id blank the link will be '#' (same page).
 
-Usage and extending examples can be found here: https://majemedia.com/plugins/woocommerce-external-product-link-shortcodes
+[Usage and extending examples can be found here](https://majemedia.com/plugins/woocommerce-external-product-link-shortcodes)
 
-https://github.com/MajeMediaLLC/Maje_WooCommerce_External_Product_Link_Shortcodes
+=== Contribute! ===
+
+[Github project](https://github.com/MajeMediaLLC/Maje_WooCommerce_External_Product_Link_Shortcodes)
+
+== Screenshots ==
+1. Shows Block builder usage example
 
 == Installation ==
 1. Have WooCommerce installed and activated
@@ -48,6 +57,13 @@ https://github.com/MajeMediaLLC/Maje_WooCommerce_External_Product_Link_Shortcode
 3. Activate plugin
 
 == Changelog ==
+= 1.1.3 =
+* Tested against WordPress 5.2.2
+* Tested against WooCommerce 3.6.5
+* Added assets folder with banner and icon
+* Added screenshot of shortcode
+* Updated readme and README instructions
+
 = 1.1.2 =
 * Tested against WordPress 4.9 in all the places
 
