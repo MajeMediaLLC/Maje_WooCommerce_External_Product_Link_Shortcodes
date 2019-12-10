@@ -7,10 +7,10 @@
 Link directly to your external or affiliate products
 
 - Requires at least: WordPress 4.5.2
-- Tested up to: WordPress 5.2.2
+- Tested up to: WordPress 5.3
 - WC requires at least: 2.6
-- WC tested up to 3.6.5
-- Stable tag: 1.1.4
+- WC tested up to 3.8.1
+- Stable tag: 1.1.5
 - License: GPL2
 - License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,9 @@ If you leave product_id blank the link will be '#' (same page).
 3. Activate plugin
 
 ## Changelog
+### 1.1.5
+* Bumped tested to for WP core and WC
+
 ### 1.1.4
 * Changed displayed title of plugin WordPress.org repo
 
